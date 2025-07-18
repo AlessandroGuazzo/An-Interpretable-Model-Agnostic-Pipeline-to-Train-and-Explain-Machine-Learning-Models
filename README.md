@@ -10,19 +10,19 @@ The dataset must also have been previously processed in order to obtain several 
 
 When running the code the user must add two arguments in the terminal after the name of the code.
 Specifically:
-- the model name (either Cox or SSVM).
+- the model name (Cox or SSVM are currently supported).
 - the dataset path or name.
-Other arguments may be passed as named arguments. Check the beginning of `pipelineBackward.py` or run `python pipelineBackward.py --help` to see the full list.
+Other arguments may be passed as named arguments. Run `python pipelineBackward.py --help` to see the full list or check the beginning of `pipelineBackward.py`.
 
-
-We also provide the Jupyter file BackwardResultsAnalysis.ipynb to automatically analyze results obtained through the previous code.
+A sample code that generates a dummy dataset, extracts boostrap sets, and runs the pipeline can be found in the Jupyter file `ExampleWorkflow.ipynb`.
+We also provide the Jupyter file `BackwardResultsAnalysis.ipynb` to automatically analyze results obtained through the previous code.
 Here the User attention is required in the first box to select:
 - the considered model (Cox or SSVM).
 - the dataset path or name.
 - the name of the column in the dataset associated with the outcome occurrence.
 - the name of the column in the dataset associated with the outcome time.
 
-After running it the code shows:
+After running, the code shows:
 - the overall bootstrap performance in the first box.
 - a figure representing the performance as a function of the number of features in the third box.
 - a figure representing the feature ranking based on the BRFS (features at the top are removed later and thus more informative) in the fourth box.
