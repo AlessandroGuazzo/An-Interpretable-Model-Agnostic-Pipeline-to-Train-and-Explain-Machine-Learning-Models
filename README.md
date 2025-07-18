@@ -33,3 +33,7 @@ Please note that the user may need to change the axis limit of figures according
 
 - **Alessandro Guazzo** - Main author, lead developer of the codebase.
 - **Isotta Trescato, Enrico Longato, Erica Tavazzi, Barbara di Camillo** - Project collaborators who provided input during the conceptualization phase.
+
+## Acknowledgements
+
+- **Luca Fabbian** - for his assistance in refining this repository and contributing quality-of-life improvements.
