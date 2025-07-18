@@ -1,4 +1,4 @@
-# An-Interpretable-Model-Agnostic-Framework-to-Fairly-Train-and-Evaluate-Artificial-Intelligence-Models
+# An Interpretable Model-Agnostic Pipeline to Train and Explain Machine Learning Models
 Python code for the model development framework described in the paper "An Interpretable Model-Agnostic Framework to Fairly Train and Evaluate Artificial Intelligence Models"
 
 ## Instructions:
